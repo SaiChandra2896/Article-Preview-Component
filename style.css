@@ -115,5 +115,22 @@ body {
 
   .img-container {
     width: 100%;
+    height: 40%;
+  }
+  .img-container img {
+    object-fit: cover;
+    object-position: top;
+  }
+  .content {
+    padding: 0.4rem 1rem;
+  }
+
+  .content header {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+
+  .profile {
+    margin-top: 2rem;
   }
 }
